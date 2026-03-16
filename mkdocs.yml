@@ -1,0 +1,11 @@
+site_name: Volute
+site_url: https://volute.io/
+site_description: Farewell to Volute — the Medal of Honor Allied Assault anti-cheat project.
+site_author: pstN
+
+theme:
+  name: bootstrap386
+  custom_dir: docs/overrides
+
+extra_css:
+  - extra.css

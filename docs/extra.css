@@ -1,0 +1,83 @@
+/* ── Layout ─────────────────────────────────────────────── */
+
+body {
+    padding-top: 70px;
+}
+
+/* ── Page title ─────────────────────────────────────────── */
+
+h1:first-child {
+    letter-spacing: 0.05em;
+    margin-bottom: 4px;
+}
+
+/* ── Shutdown alert ─────────────────────────────────────── */
+
+.volute-shutdown {
+    font-size: 1.05em;
+    border-radius: 0;
+    margin-bottom: 28px;
+}
+
+/* ── Stats row ──────────────────────────────────────────── */
+
+.volute-stats {
+    margin-top: 40px;
+}
+
+.stat-well {
+    padding: 24px 12px 20px;
+    border-radius: 0;
+    transition: box-shadow 0.15s ease;
+}
+
+.stat-well:hover {
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.35);
+}
+
+.stat-number {
+    font-size: 3.2em;
+    font-weight: bold;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+}
+
+.stat-unit {
+    font-size: 0.55em;
+    vertical-align: super;
+    letter-spacing: 0;
+}
+
+.stat-label {
+    font-size: 0.78em;
+    margin-top: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    opacity: 0.85;
+}
+
+/* ── Nav bar tweaks ─────────────────────────────────────── */
+
+.navbar-brand {
+    font-weight: bold;
+    letter-spacing: 0.04em;
+}
+
+.navbar-nav > li > a {
+    letter-spacing: 0.04em;
+}
+
+/* ── Footer ─────────────────────────────────────────────── */
+
+footer.container {
+    margin-top: 40px;
+    padding-bottom: 20px;
+    font-size: 0.88em;
+    opacity: 0.75;
+}
+
+/* ── Horizontal rule ────────────────────────────────────── */
+
+hr {
+    margin: 32px 0;
+}
